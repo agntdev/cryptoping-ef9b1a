@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Add Coin",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Add a cryptocurrency to watchlist with quick buttons for popular coins"
+            }
+          }
+        ],
+        "send": {
+          "callback": "watchlist:add"
+        }
+      }
+    ]
+  }
+]
